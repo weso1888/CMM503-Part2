@@ -1,0 +1,157 @@
+/*@import "templatecolours.css";*/
+@import "fonts.css";
+
+/* Colourings */
+header{
+    background-color: slategray;
+}
+body{
+    background-color: ghostwhite;
+}
+footer{
+    background-color: slategray;
+}
+#about {
+    background-color: grey;
+}
+
+/* Image Sizing CSS*/
+
+#group_photos {
+    width: 100%;
+}
+
+#gprj{
+    width: 33.3%;
+    height: 220px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#gprj2 {
+    width: 33.3%;
+    height: 220px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#gprj3 {
+    width: 33.3%;
+    height: 220px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/*Header CSS*/
+header {
+    height: 200px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#Page title {
+
+}
+
+#searchbox {
+    float: right;
+}
+
+
+/*Body CSS*/
+body{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer CSS*/
+footer{
+    height: 50px;
+}
+
+footer>p{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+/*About CSS*/
+#about {
+    height: 200px;
+}
+
+
+/*Text Styling*/
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+}
+
+h3, h4, h5 {
+    font-size: 20px;
+    }
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+h2, h5, p {
+    padding-left: 10px;
+}
+
+/*Section buttons*/
+#buttons{
+    display:table;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button1{
+    display:table-cell;
+    width:50%;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.button2{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+/*Margin Fixes*/
+
