@@ -103,12 +103,12 @@ h1 {
     padding-top: 10px;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5, h6, h7 {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
 }
 
-h3, h4, h5 {
+h3, h4, h5, h6, h7 {
     font-size: 20px;
     }
 
@@ -117,9 +117,22 @@ p {
     font-weight: 300;
 }
 
-h2, h5, p {
+h2, h5, h6, h7, p {
     padding-left: 10px;
 }
+
+h6, h7 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+
 
 /*Section buttons*/
 #buttons{
@@ -158,11 +171,44 @@ table { margin-left: auto;
 }
 
 .box-table {
-    border-radius: 4px;
-    border: 2px #606 solid;
-    background-color: #fff;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
+
+.box-form {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.submit {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.input-text
+{   border: 1px solid #D68EB2;
+    border-top-color: #606;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5),0 1px 0 rgba(0,0,0,.07) inset;
+    outline: 0;}
+.input-text
+{   background-color: #fff;
+    height: 20px;
+    padding: 3px 7px;
+    line-height: normal;
+    margin-bottom: 10px;
+    margin-top:10px;
+    color:#606}
 
 
 
